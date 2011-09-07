@@ -4,8 +4,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvDnug", "src\CvDnug\CvDnug
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OldWebforms", "src\OldWebforms\OldWebforms.csproj", "{2062006A-880E-4F3F-B83B-4AE03B0A1B99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewAspMvc", "src\NewAspMvc\NewAspMvc.csproj", "{4D711335-F1E5-4921-A02A-8D4956842814}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,10 +18,6 @@ Global
 		{2062006A-880E-4F3F-B83B-4AE03B0A1B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2062006A-880E-4F3F-B83B-4AE03B0A1B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2062006A-880E-4F3F-B83B-4AE03B0A1B99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4D711335-F1E5-4921-A02A-8D4956842814}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4D711335-F1E5-4921-A02A-8D4956842814}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4D711335-F1E5-4921-A02A-8D4956842814}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4D711335-F1E5-4921-A02A-8D4956842814}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
