@@ -1,11 +1,10 @@
-﻿@using OldWebforms.Helpers
+﻿@using OldWebforms.Lib
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <title>@ViewBag.Title</title>
-    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
-    
+    @Html.StylesheetIncludes()
     @Html.JavascriptIncludes()
 </head>
 

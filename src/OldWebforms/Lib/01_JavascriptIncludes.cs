@@ -3,9 +3,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
 
-namespace OldWebforms.Helpers
+namespace OldWebforms.Lib
 {
-    public static class ContentHelper
+    public static partial class ContentHelper
     {
          public static string JavascriptIncludes()
          {
