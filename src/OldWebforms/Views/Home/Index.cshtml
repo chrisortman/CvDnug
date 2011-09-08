@@ -3,3 +3,12 @@
 }
 
 <h2>Index</h2>
+
+@using(Html.BeginForm("Save","Home"))
+{
+  <div>
+    @Html.EditorForModel()
+
+<input type="submit" value="Submit"/>
+</div>  
+}

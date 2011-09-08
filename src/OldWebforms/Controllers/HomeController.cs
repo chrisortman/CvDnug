@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using OldWebforms.Models;
 
 namespace OldWebforms.Controllers
 {
@@ -13,8 +14,12 @@ namespace OldWebforms.Controllers
 
         public ActionResult Index()
         {
-            return View();
+            return View(new ContactForm());
         }
 
+        public ActionResult Save(ContactForm form)
+        {
+            return View();
+        }
     }
 }
