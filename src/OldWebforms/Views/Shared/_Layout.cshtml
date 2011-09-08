@@ -9,6 +9,46 @@
 </head>
 
 <body>
-    @RenderBody()
+<form>
+   <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1>
+                    My ASP.NET Application
+                </h1>
+            </div>
+            <div class="loginDisplay">
+                @if(ViewData.ContainsKey("LoggedIn"))
+                {
+                  <text>
+                   Welcome <span class="bold">@ViewData["LoginName"]</span>!
+                        [ <a href="@Url.Content("~/")">Log Out</a>]
+                        </text>
+                }
+                else
+                {
+                  <text>
+                      [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log In</a> ]
+                      </text>
+                  
+                }
+              
+             </div>
+             <div style="clear: both;"></div>
+            <nav>
+              @Html.NavMenu(Url)
+              </nav>
+             
+        </div>
+        <div class="main">
+            @RenderBody()
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="footer">
+        
+    </div>
+</form>   
 </body>
 </html>

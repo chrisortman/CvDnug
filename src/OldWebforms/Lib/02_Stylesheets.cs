@@ -11,8 +11,16 @@ namespace OldWebforms.Lib
          {
              var cssFiles = new[]
              {
+                 /*
+                  * The order is on purpose here,
+                  * jquery is first so that your own stylesheets can override it
+                  * The webforms stylesheet comes last because that would be 
+                  * the existing stylesheet which i want to have precedence over 
+                  * anything declared in boiler plate mvc project
+                  */
                 "/content/themes/base/jquery.ui.all.css",
-                "/content/site.css"
+                "/content/site.css",
+                "/Styles/Site.css"
              };
 
              var sb = new StringBuilder();

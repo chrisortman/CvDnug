@@ -292,3 +292,13 @@ div.accountInfo
     text-align: right;
     padding-right: 10px;
 }
+
+/* navigation */
+nav ul {margin: 0; padding: 0; 
+	list-style-type: none; list-style-image: none; }
+nav li {display: inline; }
+nav ul li a {text-decoration:none;  margin: 4px;
+	padding: 5px 20px 5px 20px; color: blue;
+	background: pink;}
+#nav ul li a:hover {color: purple;
+	background: yellow; }

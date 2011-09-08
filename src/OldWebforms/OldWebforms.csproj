@@ -197,6 +197,7 @@
     </Compile>
     <Compile Include="Lib\01_JavascriptIncludes.cs" />
     <Compile Include="Lib\02_Stylesheets.cs" />
+    <Compile Include="Lib\03_MainMenu.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
