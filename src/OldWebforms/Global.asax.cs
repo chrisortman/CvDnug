@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
 using System.Web.SessionState;
+using Ketchup.Web.Routing;
 
 namespace OldWebforms
 {
@@ -55,6 +56,8 @@ namespace OldWebforms
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+
+            routes.MapWebFormsPage("AboutUrl", "About.aspx", "~/About.aspx");
 
             routes.MapRoute(
                 "Default", // Route name
